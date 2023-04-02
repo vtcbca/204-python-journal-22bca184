@@ -1,0 +1,7 @@
+a=['program.c', 'stdio.c', 'data_structures.c', 'main.c', 'algorithms.c']
+l= [b.replace('.c', '.py') for b in a]
+print(l)
+
+OUTPUT:
+
+ ['program.py', 'stdio.py', 'data_structures.py', 'main.py', 'algorithms.py']
